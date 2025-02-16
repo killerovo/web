@@ -1,4 +1,4 @@
-const API_KEY = "sk-JMxfSfmxgpX1CPuXRvl6eM5d93WglbkZpw44CKLYHcWbmO26";  // 替换为你的 Kimi API Key
+const API_KEY = " ";  // 替换为你的 Kimi API Key
 const API_URL = "https://api.moonshot.cn/v1/chat/completions";  // 替换为 Kimi API 端点
 
 async function sendMessage() {
