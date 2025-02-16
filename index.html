@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container" id="chatContainer">
+        <div class="message ai-message">
+            <div class="avatar ai-avatar"></div>
+            <div class="content">您好！我是AI助手，有什么可以帮您的？</div>
+        </div>
+    </div>
+    
+    <div class="input-container">
+        <div class="input-wrapper">
+            <input type="text" id="userInput" placeholder="输入您的消息...">
+            <button onclick="sendMessage()">发送</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
